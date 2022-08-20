@@ -50,4 +50,4 @@ jobs:
           app-name: 'ors-demo'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_18128DAFCE3D4A6BA778C459781913EC }}
-          package: '*.jar'
+          package: '*.war'
